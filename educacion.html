@@ -22,8 +22,9 @@
     </ul>
   </nav>
 <section>
+  <article>
   <h2>Educación</h2>
-  <table border="1",cellpadding="10",cellspacing="100">
+  <table border="1",cellpadding="10",cellspacing="0">
     <thead>
       <tr>
         <th>Año</th>
@@ -53,5 +54,41 @@
       </tr>
     </tbody>
     </table>
+  </article>
+      <article>
+        <h1>Agregar Estudios</h1>
+        <form name="Formación" autocomplete="on">
+            <label for="año">Año:</label>
+            <select>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+            </select><br><br>
+            <label for="institucion">institución:</label>
+              <input id="institucion" type="text" placeholder="NEXTU" size="46px" autofocus required><br><br>
+              <label for="lugar">Lugar:</label>
+              <textarea name="lugar" id="lugar" rows="3" cols="52"></textarea><br><br>
+            <label for="culmino">Culminó? </label>
+            Si <input type="radio" name="si">
+            No <input type="radio" name="no"><br><br>
+            <input type="submit"value="Enviar"><br>
+          </fieldset>
+  </section>
   </body>
 </html>
